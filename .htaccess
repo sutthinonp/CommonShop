@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteRule ^login$ login.php [QSA]
+RewriteRule ^register$ register.php [QSA]
+RewriteRule ^random$ random.php [QSA]
+RewriteRule ^home$ home.php [QSA]
+RewriteRule ^shop$ shop.php [QSA]
+RewriteRule ^topup$ topup.php [QSA]
+RewriteRule ^logout$ logout.php [QSA]
+RewriteRule ^history$ history.php [QSA]
+RewriteRule ^log_topup$ log_topup.php [QSA]
+RewriteRule ^index$ home.php [QSA]
+RewriteRule ^order$ order.php [QSA]
+RewriteRule ^genarator$ free.php [QSA]
+RewriteRule ^post$ post.php [QSA]
+
+RewriteRule ^backend$ backend.php [QSA]
